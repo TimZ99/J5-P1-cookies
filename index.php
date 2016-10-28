@@ -1,60 +1,87 @@
-<html lang="nl-NL"><head>
+<html lang="nl-NL">
+<head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--- Pagina titel --->
     <title>Cookie</title>
+    
+    <!--- Style --->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-        
+   
+    <!--- Stylesheet voor icons (Dit bestand is een aangepaste versie en bevat maar een klein aantal icons nodig voor de werking van de website.) --->
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-  <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
-<nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation" style="background-color: #167FBC">
-<div class="container">
-<div class="navbar-header">
 
-<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
-<i class="fa fa-bars" style="color:white;"></i>
-</button>
-<a class="navbar-brand page-scroll" href="#page-top" style="padding: 3px 15px;">
-<span class="light"><img class="intro-img" src="img/Cookie-nav.png" style="height:44px;"></span>
-</a>
-</div>
- 
-<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-<ul class="nav navbar-nav">
- 
-<li class="hidden">
-<a href="#page-top"></a>
-</li>
-<li class="">
-<a class="page-scroll" href="#intro" style="color: #FFFFFF">Cookies?</a>
-</li>
-<li class="">
-<a class="page-scroll" href="#geschiedenis" style="color: #FFFFFF">Geschiedenis</a>
-</li>
-<li class="">
-<a class="page-scroll" href="#wet" style="color: #FFFFFF">Cookie wet</a>
-</li>
-</ul>
-</div>
-</div>
-</nav>
 
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+<!--- Begin navigatiebalk --->
+<!--- Pas in de regel hieronder de kleur van de navigatiebalk aan --->
+    <nav class="navbar navbar-custom navbar-fixed-top top-nav-collapse" role="navigation" style="background-color: #167FBC">
+        <div class="container">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                <!--- Pas in de regel hieronder de kleur van menu icon aan (alleen zichtbaar op telefoon/tablet) --->
+                    <i class="fa fa-bars" style="color:white;"></i>
+                </button>
+                
+                <a class="navbar-brand page-scroll" href="#page-top" style="padding: 3px 15px;">
+                    <span class="light">
+                    <!--- Pas in de regel hieronder de afbeelding die in de navigatiebalk staat aan. img/.... --->
+                        <img class="intro-img" src="img/Cookie-nav.png" style="height:44px;">
+                    </span>
+                </a>
+            </div>
+ 
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <!--- Pas in de regels hieronder de verschillende menu items aan
+                    Voeg deze code toe voor een extra menu item:
+                    <li class="">
+                        <a class="page-scroll" href="#     vul hier het ID van de <section> in      " style="color: #FFFFFF">    Vul hier in wat er in de menu balk als naam moet staan.      </a>
+                    </li>
+                    
+                    Pas de: style="color: #FFFFFF" :aan om de kleur van de tekst te veranderen in de navigatiebalk.
+                     --->
+                    <li class="">
+                        <a class="page-scroll" href="#intro" style="color: #FFFFFF">Cookies?</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#geschiedenis" style="color: #FFFFFF">Geschiedenis</a>
+                    </li>
+                    <li class="">
+                        <a class="page-scroll" href="#wet" style="color: #FFFFFF">Cookie wet</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!--- Einde navigatiebalk --->
+
+<!--- Section, introductie --->
 <section id="intro" class="container content-section">
 <div class="row">
 <div class="col-lg-8 col-lg-offset-2">
 <br>
 <br>
 <br>
+
+<!--- Gele melding boven aan pagina --->
 <div class="alert alert-warning alert-dismissible" role="alert" style="margin-top:5px">
   <button type="button" id="closer" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <!--<b>Cookie Warning!</b> Deze website maakt<b>geen</b> gebruik van cookies. Dit hoeven we niet te melden. Toch doen we het. Een website over cookies moet ook een waarschuwing over cookies hebben.-->
-<b>Cookie Warning!</b> Deze website maakt gebruik van cookies. Bij het gebruik van deze website gaat u er mee akkoord dat er cookies worden geplaatst voor het gebruik van de service AdSense™. <a href="http://www.google.nl/intl/nl/policies/technologies/ads/">Meer informatie.</a>
+  <b>Cookie Warning!</b> Deze website maakt<b>geen</b> gebruik van cookies. Dit hoeven we niet te melden. Toch doen we het. Een website over cookies moet ook een waarschuwing over cookies hebben.
 </div>
+<!--- Einde Gele melding boven aan pagina --->
+<!--- Titel --->
 <h2>Wat zijn cookies?</h2>
 <div class="row">
 <div class="col-xs-12 col-sm-6 col-lg-6">
@@ -76,7 +103,10 @@ Sommige websites staan toe dat andere websites ook cookies kunnen plaatsen op je
 </div>
 <div class="col-xs-12 col-sm-6 col-lg-6">
 <br>
+
+<!--- Afbeelding carousel (foto's aan te passen in het bestand carousel.php --->
 <?php include 'carousel.php'; ?>
+
 </div>
 <div class="col-xs-12 col-sm-12 col-lg-12">
 <b>Cookies verwijderen</b>
@@ -107,6 +137,7 @@ Klik op 'Safari' boven in. Klik op 'Voorkeuren' > 'Privacy'. Klik op 'Verwijder 
 </div>
 </section>
 
+<!--- Section, geschiedenis --->
 <section id="geschiedenis" class="container content-section">
 <div class="row">
 <div class="col-lg-8 col-lg-offset-2">
@@ -121,28 +152,7 @@ In 1997 kwam er een voorstel dat browsermakers aanmoedigde om het gebruik van co
 </div>
 </section>
 
-<section id="geschiedenis" class="container content-section">
-<div class="row">
-<div class="col-lg-8 col-lg-offset-2">
-<br><br>
-<hr>
-<h4 style="text-align: center;">Sorry, een Advertentie :(</h4>
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<!-- AD1 -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-8333217313626330"
-     data-ad-slot="5147689600"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>
-
-<hr>
-</div>
-</div>
-</section>
-
+<!--- Section, wet --->
 <section id="wet" class="container content-section">
 <div class="row">
 <div class="col-lg-8 col-lg-offset-2">
@@ -163,7 +173,7 @@ Tracking cookies, deze cookies vallen in de categorie; toestemming vereist. Met 
 </section>
 <footer>
 <div class="container text-center">
-Adsense™ is een handelsmerk van Google Inc.<br>Copyright © 2015-2016 Tim || Alle rechten voorbehouden. <a href="http://p10691.hageveld2.nl/per51eind/privacy.php">Privacy policy</a><br></div>
+Copyright © 2015-<script type="text/javascript">var theDate=new Date(); document.write(theDate.getFullYear())</script> <a href="http://p10691.hageveld2.nl">Tim</a> || Alle rechten voorbehouden.<br></div>
 </footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
