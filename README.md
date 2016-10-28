@@ -3,6 +3,9 @@ Deze website is gemaakt voor de eerste periode informatica van jaar 5.
 
 De website is gemaakt met [Bootstrap (3.3.5)](https://getbootstrap.com).
 
+**Mochten er vragen zijn, stel ze gerust.
+Op het moment dat er iets niet werkt -> ik help graag.**
+
 ##Menu item toevoegen
 ```html
 <li class="">  
