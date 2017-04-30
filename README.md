@@ -3,16 +3,13 @@ Deze website is gemaakt voor de eerste periode informatica van jaar 5.
 
 De website is gemaakt met [Bootstrap (3.3.5)](https://getbootstrap.com).
 
-**Mochten er vragen zijn, stel ze gerust.
-Op het moment dat er iets niet werkt -> ik help graag.**
-
-##Menu item toevoegen
+## Menu item toevoegen
 ```html
 <li class="">  
 <a class="page-scroll" href="#   vul hier het ID van de <section> in   " style="color: #FFFFFF">   Vul hier in wat er in de menu balk als naam moet staan.   </a> 
 </li>
    ```
-##Section (nieuw kopje) toevoegen
+## Section (nieuw kopje) toevoegen
 ```html
 <section id="   Vul hier het nieuwe id van de section in (als er een knop in de navigatiebalk staat die naar dezze section verwijst moet het id ook daar worden ingevuld   " class="container content-section">
 <div class="row">
@@ -28,7 +25,7 @@ Typ hier de tekst.
 </section>
 ```
 
-##Style
+## Style
 De pagina is in 12 verticale vakken verdeeld.
 ```html
 <div class="col-xs-12 col-sm-12 col-lg-12">
@@ -45,7 +42,7 @@ col-lg-12, op computer 12 vakjes breed, dus volledige breedte.
 Door het getal aan te passen kan de breedte van de div aangepast worden. 
 
 
-###Voorbeeld
+### Voorbeeld
 ```html
 <div class="col-xs-12 col-sm-12 col-lg-12">
     <div class="col-xs-12 col-sm-6 col-lg-6">
