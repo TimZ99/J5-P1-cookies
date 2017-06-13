@@ -5,13 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--- Pagina titel --->
     <title>Cookie</title>
-    
+
     <!--- Style --->
         <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
-   
+
     <!--- Stylesheet voor icons (Dit bestand is een aangepaste versie en bevat maar een klein aantal icons nodig voor de werking van de website.) --->
         <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    
+
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
@@ -30,7 +30,7 @@
                 <!--- Pas in de regel hieronder de kleur van menu icon aan (alleen zichtbaar op telefoon/tablet) --->
                     <i class="fa fa-bars" style="color:white;"></i>
                 </button>
-                
+
                 <a class="navbar-brand page-scroll" href="#page-top" style="padding: 3px 15px;">
                     <span class="light">
                     <!--- Pas in de regel hieronder de afbeelding die in de navigatiebalk staat aan. img/.... --->
@@ -38,7 +38,7 @@
                     </span>
                 </a>
             </div>
- 
+
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
                 <ul class="nav navbar-nav">
                     <li class="hidden">
@@ -49,7 +49,7 @@
                     <li class="">
                         <a class="page-scroll" href="#     vul hier het ID van de <section> in      " style="color: #FFFFFF">    Vul hier in wat er in de menu balk als naam moet staan.      </a>
                     </li>
-                    
+
                     Pas de: style="color: #FFFFFF" :aan om de kleur van de tekst te veranderen in de navigatiebalk.
                      --->
                     <li class="">
@@ -104,8 +104,8 @@ Sommige websites staan toe dat andere websites ook cookies kunnen plaatsen op je
 <div class="col-xs-12 col-sm-6 col-lg-6">
 <br>
 
-<!--- Afbeelding carousel (foto's aan te passen in het bestand carousel.php --->
-<?php include 'carousel.php'; ?>
+<!--- Afbeelding carousel (foto's aan te passen in het bestand carousel.html --->
+<?php include 'carousel.html'; ?>
 
 </div>
 <div class="col-xs-12 col-sm-12 col-lg-12">
