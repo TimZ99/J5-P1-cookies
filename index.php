@@ -78,7 +78,7 @@
 <!--- Gele melding boven aan pagina --->
 <div class="alert alert-warning alert-dismissible" role="alert" style="margin-top:5px">
   <button type="button" id="closer" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-  <b>Cookie Warning!</b> Deze website maakt<b>geen</b> gebruik van cookies. Dit hoeven we niet te melden. Toch doen we het. Een website over cookies moet ook een waarschuwing over cookies hebben.
+  <b>Cookie Warning!</b> Deze website maakt <b>geen</b> gebruik van cookies. Dit hoeven we niet te melden. Toch doen we het. Een website over cookies moet ook een waarschuwing over cookies hebben.
 </div>
 <!--- Einde Gele melding boven aan pagina --->
 <!--- Titel --->
