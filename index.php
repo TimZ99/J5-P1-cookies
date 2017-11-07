@@ -173,7 +173,7 @@ Tracking cookies, deze cookies vallen in de categorie; toestemming vereist. Met 
 </section>
 <footer>
 <div class="container text-center">
-Copyright © 2015-<script type="text/javascript">var theDate=new Date(); document.write(theDate.getFullYear())</script> <a href="http://p10691.hageveld2.nl">Tim</a> || Alle rechten voorbehouden. | Credits voor afbeeldingen in de slide show: <a href="https://www.youtube.com/watch?v=I01XMRo2ESg">Adversitement</a><br></div>
+Copyright © 2015-<script type="text/javascript">var theDate=new Date(); document.write(theDate.getFullYear())</script> <a href="http://<?php echo $_SERVER['SERVER_NAME'];?>">Tim</a> || Alle rechten voorbehouden. | Credits voor afbeeldingen in de slide show: <a href="https://www.youtube.com/watch?v=I01XMRo2ESg">Adversitement</a><br></div>
 </footer>
 <script src="js/jquery.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
